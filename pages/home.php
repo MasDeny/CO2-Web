@@ -1,11 +1,11 @@
-    <section class="our-service">
+    <section class="our-service" id="make-center">
         <div class="bg-light-grey pb-4" id="mobile-shown">
             <div class="pt-5 pb-4">
                 <h4 class="text-uppercase font-weight-bold mb-0"><span class="text-black">our</span> <span
                         class="text-yellow">services</span></h4>
             </div>
             <div class="software-development-home pb-4 pt-4">
-                <a href="how-software-development">
+                <a href="how-software-development-works">
                     <div class="text-center">
                         <img class="img-fluid" src="../assets/img/hexagon-picture/software-development-home.png">
                     </div>
