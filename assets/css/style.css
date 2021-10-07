@@ -1,882 +1,1026 @@
 /*text color*/
-.text-black{
-    color: #474443 !important;
-}
+@media only screen and (min-width: 768px) {
+    .text-black {
+        color: #474443 !important;
+    }
 
-.text-yellow{
-    color: #FFC731 !important;
-}
+    .text-yellow {
+        color: #FFC731 !important;
+    }
 
-.text-dark{
-    color: #2F2F2F !important;
-}
-/*end text color*/
-.bg-dark{
-    background-color: #2F2F2F !important;
-}
+    .text-dark {
+        color: #2F2F2F !important;
+    }
 
-.bg-black{
-    background-color: #474443 !important;
-} 
+    /*end text color*/
+    .bg-dark {
+        background-color: #2F2F2F !important;
+    }
 
-.bg-yellow{
-    background-color: #FFC731 !important;
-}
+    .bg-black {
+        background-color: #474443 !important;
+    }
 
-.bg-grey-light{
-    background-color: #EFEFEF !important;
-}
-/*end background color*/
+    .bg-yellow {
+        background-color: #FFC731 !important;
+    }
 
-.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
-    background-color: rgba(47,47,47,100%);
-}
+    .bg-grey-light {
+        background-color: #EFEFEF !important;
+    }
 
-.nav-item .nav-link.active{
-    border-bottom: 4px solid #FFD635;
-}
+    /*end background color*/
 
-.nav-item .nav-link:hover{
-    border-bottom: 4px solid #FFD635;
-    color: #FFF !important;
-}
+    .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
+    .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+        background-color: rgba(47, 47, 47, 100%);
+    }
+
+    .nav-item .nav-link.active {
+        border-bottom: 4px solid #FFD635;
+    }
+
+    .nav-item .nav-link:hover {
+        border-bottom: 4px solid #FFD635;
+        color: #FFF !important;
+    }
 
 
-.carousel-caption {
-    position: absolute;
-    right: 50%;
-    left: 0;
-    z-index: 10;
-    padding-top: 12%;
-    padding-bottom: 20px;
-    color: #fff;
-    top: 0 !important;
-    bottom:none !important;
-    text-align: left !important;
-    padding-left: 12%;
-}
+    .carousel-caption {
+        position: absolute;
+        right: 50%;
+        left: 0;
+        z-index: 10;
+        padding-top: 12%;
+        padding-bottom: 20px;
+        color: #fff;
+        top: 0 !important;
+        bottom: none !important;
+        text-align: left !important;
+        padding-left: 12%;
+    }
 
-.carousel-caption h1{
-    min-height: 10rem;
-}
+    .carousel-caption h1 {
+        min-height: 10rem;
+    }
 
-.our-service{
-    background-image: url('../img/background-service.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    width: 100% !important;
-}
+    .our-service {
+        background-image: url('../img/background-service.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        width: 100% !important;
+    }
 
-.software-development-home{
-    background-image: url('../img/hexagon-picture/software-development.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain !important;
-}
+    .software-development-home {
+        background-image: url('../img/hexagon-picture/software-development.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain !important;
+    }
 
-.software-development-home:hover{
-    background-image: url('../img/hexagon-picture/software-development-hover.png');
-}
+    .software-development-home:hover {
+        background-image: url('../img/hexagon-picture/software-development-hover.png');
+    }
 
-.it-outsourcing-home{
-    background-image: url('../img/hexagon-picture/it-outsourcing.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain !important;
-}
+    .it-outsourcing-home {
+        background-image: url('../img/hexagon-picture/it-outsourcing.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain !important;
+    }
 
-.it-outsourcing-home:hover{
-    background-image: url('../img/hexagon-picture/it-outsourcing-hover.png');
-}
+    .it-outsourcing-home:hover {
+        background-image: url('../img/hexagon-picture/it-outsourcing-hover.png');
+    }
 
-.testimonial-carousel .carousel-control.left::before{
-    background-image: url('../img/icon/ic-prev.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-}
+    .testimonial-carousel .carousel-control.left::before {
+        background-image: url('../img/icon/ic-prev.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
 
-.testimonial-carousel .carousel-control::before {
-    font-size: 5rem;
-    color: rgb(0, 0, 0, 0) !important;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
+    .testimonial-carousel .carousel-control::before {
+        font-size: 5rem;
+        color: rgb(0, 0, 0, 0) !important;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
 
-.testimonial-carousel .carousel-control.right::before {
-    background-image: url('../img/icon/ic-next.png') !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-}
+    .testimonial-carousel .carousel-control.right::before {
+        background-image: url('../img/icon/ic-next.png') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
 
-.testimonial-form{
-    background-image: url('../img/background-hexagon.png');
-    background-repeat: no-repeat;
-}
+    .testimonial-form {
+        background-image: url('../img/background-hexagon.png');
+        background-repeat: no-repeat;
+    }
 
-.privacy-policy{
-    background-image: url('../img/background-hexagon.png');
-    background-repeat: no-repeat;
-}
+    .privacy-policy {
+        background-image: url('../img/background-hexagon.png');
+        background-repeat: no-repeat;
+    }
 
-.about-us{
-    background-image: url('../img/background-hexa-about.png');
-    background-repeat: no-repeat;
-}
+    .about-us {
+        background-image: url('../img/background-hexa-about.png');
+        background-repeat: no-repeat;
+    }
 
-.hexa-center{
+    .hexa-center {
         padding-top: 10.1rem;
-}
+    }
 
-.why-img{
-    position: relative;
-}
+    .why-img {
+        position: relative;
+    }
 
-.professional{
-    position: absolute;
-    top: 0;
-    left: 42%;
-    background-image: url('../img/professional.png');
-    width: 170.1px;
-    height: 167.98px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
+    .professional {
+        position: absolute;
+        top: 0;
+        left: 42%;
+        background-image: url('../img/professional.png');
+        width: 170.1px;
+        height: 167.98px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
-.professional:hover{
-    position: absolute;
-    top: 0;
-    left: 21.7%;
-    background-image: url('../img/professional-hover.png');
-    width: 395.78px;
-    height: 167.98px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
+    .professional:hover {
+        position: absolute;
+        top: 0;
+        left: 21.7%;
+        background-image: url('../img/professional-hover.png');
+        width: 395.78px;
+        height: 167.98px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
-.cost-effective{
-    position: absolute;
-    bottom: -8%;
-    right: 22%;
-    background-image: url('../img/cost-effective.png');
-    width: 178.41px;
-    height: 158.56px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.cost-effective:hover{
-    position: absolute;
+    .cost-effective {
+        position: absolute;
         bottom: -8%;
-    right: 2.6%;
-    background-image: url('../img/cost-effective-hover.png');
-    width: 395.41px;
-    height: 158.56px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
+        right: 22%;
+        background-image: url('../img/cost-effective.png');
+        width: 178.41px;
+        height: 158.56px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .cost-effective:hover {
+        position: absolute;
+        bottom: -8%;
+        right: 2.6%;
+        background-image: url('../img/cost-effective-hover.png');
+        width: 395.41px;
+        height: 158.56px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .adaptive {
+        position: absolute;
+        bottom: -8%;
+        left: 22%;
+        background-image: url('../img/adaptive.png');
+        width: 180.73px;
+        height: 158.56px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .adaptive:hover {
+        position: absolute;
+        bottom: -8%;
+        left: 0.5%;
+        background-image: url('../img/adaptive-hover.png');
+        width: 415.68px;
+        height: 161px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .join-hexa h5 {
+        min-height: 3rem;
+    }
+
+    .positive {
+        background-image: url('../img/positive.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .positive:hover {
+        background-image: url('../img/positive-hover.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .continus {
+        background-image: url('../img/continus.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .continus:hover {
+        background-image: url('../img/continus-hover.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .work {
+        background-image: url('../img/work.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .work:hover {
+        background-image: url('../img/work-hover.png');
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    /*hexagon how IT*/
+    .hexagon {
+        position: relative;
+    }
+
+    .logo-hexa {
+        padding: 14rem;
+    }
+
+
+
+    .tell-us {
+        position: absolute;
+        top: 0;
+        left: 43%;
+        background-image: url(../img/hexagon-picture/tell-us.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .tell-us:hover {
+        position: absolute;
+        top: 0;
+        left: 38%;
+        background-image: url(../img/hexagon-picture/tell-us-hover.png);
+        width: 262.5px;
+        height: 412.6px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .interview-developers {
+        position: absolute;
+        top: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/interview-developers.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .interview-developers:hover {
+        position: absolute;
+        top: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/interview-developers-hover.png);
+        width: 434.91px;
+        height: 307.58px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .review-developer {
+        position: absolute;
+        bottom: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/review-developers.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .review-developer:hover {
+        position: absolute;
+        bottom: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/review-developers-hover.png);
+        width: 437.72px;
+        height: 308.21px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sign-agreement {
+        position: absolute;
+        bottom: 6%;
+        left: 43%;
+        background-image: url(../img/hexagon-picture/sign-agreement.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .sign-agreement:hover {
+        position: absolute;
+        bottom: 6%;
+        left: 38%;
+        background-image: url(../img/hexagon-picture/sign-agreement-hover.png);
+        width: 268.77px;
+        height: 424.84px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .start-project {
+        position: absolute;
+        bottom: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/start-project.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .start-project:hover {
+        position: absolute;
+        bottom: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/start-project-hover.png);
+        width: 435.17px;
+        height: 307.21px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project-complete {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/project-complete.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project-complete:hover {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/project-complete-hover.png);
+        width: 436.11px;
+        height: 307.42px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hire-developer {
+        position: absolute;
+        top: 1%;
+        left: 7%;
+        background-image: url(../img/hexagon-picture/hire-developer.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hire-developer:hover {
+        position: absolute;
+        top: 1;
+        left: 7%;
+        background-image: url(../img/hexagon-picture/hire-developer-hover.png);
+        width: 619.77px;
+        height: 409.11px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .arrow1 {
+        position: absolute;
+        top: 22%;
+        right: 37%;
+        background-image: url(../img/hexagon-picture/arrow1.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow2 {
+        position: absolute;
+        top: 48%;
+        right: 27%;
+        background-image: url(../img/hexagon-picture/arrow2.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow3 {
+        position: absolute;
+        bottom: 22%;
+        right: 37%;
+        background-image: url(../img/hexagon-picture/arrow3.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow4 {
+        position: absolute;
+        bottom: 22%;
+        left: 37%;
+        background-image: url(../img/hexagon-picture/arrow4.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+
+
+    .arrow5 {
+        position: absolute;
+        top: 48%;
+        left: 27%;
+        background-image: url(../img/hexagon-picture/arrow5.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow6 {
+        position: absolute;
+        top: 22%;
+        left: 37%;
+        background-image: url(../img/hexagon-picture/arrow6.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow7 {
+        position: absolute;
+        top: 22%;
+        left: 19%;
+        background-image: url(../img/hexagon-picture/arrow7.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+
+    /*hexagon how software*/
+    .share {
+        position: absolute;
+        top: 0;
+        left: 43%;
+        background-image: url(../img/hexagon-picture/share.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .share:hover {
+        position: absolute;
+        top: 0;
+        left: 38%;
+        background-image: url(../img/hexagon-picture/share-hover.png);
+        width: 262.5px;
+        height: 473.49px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .quotation {
+        position: absolute;
+        top: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/quotation.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .quotation:hover {
+        position: absolute;
+        top: 23%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/quotation-hover.png);
+        width: 432.96px;
+        height: 360.64px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .software-launched {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/software-launched.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .software-launched:hover {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/software-launched-hover.png);
+        width: 438.14px;
+        height: 356.36px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sign-agreement-software {
+        position: absolute;
+        top: 48%;
+        right: 17%;
+        background-image: url(../img/hexagon-picture/sign-agreement-software.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sign-agreement-software:hover {
+        position: absolute;
+        top: 39%;
+        right: 17%;
+        background-image: url(../img/hexagon-picture/sign-agreement-software-hover.png);
+        width: 500.54px;
+        height: 237.64px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .testing {
+        position: absolute;
+        top: 48%;
+        left: 17%;
+        background-image: url(../img/hexagon-picture/testing.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .testing:hover {
+        position: absolute;
+        top: 38.5%;
+        left: 17%;
+        background-image: url(../img/hexagon-picture/testing-hover.png);
+        width: 503.21px;
+        height: 241.64px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project-start {
+        position: absolute;
+        bottom: 9%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/project-start.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .project-start:hover {
+        position: absolute;
+        bottom: 9%;
+        right: 23%;
+        background-image: url(../img/hexagon-picture/project-start-hover.png);
+        width: 436.54px;
+        height: 395.12px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .development {
+        position: absolute;
+        bottom: 9%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/development.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .development:hover {
+        position: absolute;
+        bottom: 9%;
+        left: 23%;
+        background-image: url(../img/hexagon-picture/development-hover.png);
+        width: 431.83px;
+        height: 396.12px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .maintenance {
+        position: absolute;
+        top: 1%;
+        left: 7%;
+        background-image: url(../img/hexagon-picture/maintenance.png);
+        width: 156.58px;
+        height: 139.34px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .maintenance:hover {
+        position: absolute;
+        top: 1;
+        left: 7%;
+        background-image: url(../img/hexagon-picture/maintenance-hover.png);
+        width: 614.24px;
+        height: 475.25px;
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .arrow1-soft {
+        position: absolute;
+        top: 22%;
+        right: 37%;
+        background-image: url(../img/hexagon-picture/arrow1-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow2-soft {
+        position: absolute;
+        top: 41%;
+        right: 21%;
+        background-image: url(../img/hexagon-picture/arrow2-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+
+    .arrow3-soft {
+        position: absolute;
+        bottom: 27%;
+        right: 20%;
+        background-image: url(../img/hexagon-picture/arrow3-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow4-soft {
+        position: absolute;
+        bottom: 10%;
+        left: 48%;
+        background-image: url(../img/hexagon-picture/arrow4-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 35.4px;
+        height: 17.15px;
+    }
+
+    .arrow5-soft {
+        position: absolute;
+        bottom: 27%;
+        left: 20%;
+        background-image: url(../img/hexagon-picture/arrow5-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow6-soft {
+        position: absolute;
+        top: 41%;
+        left: 21%;
+        background-image: url(../img/hexagon-picture/arrow6-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow7-soft {
+        position: absolute;
+        top: 22%;
+        left: 37%;
+        background-image: url(../img/hexagon-picture/arrow7-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .arrow8-soft {
+        position: absolute;
+        top: 22%;
+        left: 19%;
+        background-image: url(../img/hexagon-picture/arrow8-soft.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        display: block;
+        z-index: 9999;
+        width: 66.13px;
+        height: 32.03px;
+    }
+
+    .facebook {
+        background-image: url(../img/icon/facebook.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        height: 38px;
+        width: 44px;
+    }
+
+    .facebook:hover {
+        background-image: url(../img/icon/facebook-hover.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        height: 38px;
+        width: 44px;
+    }
+
+    .linked-in {
+        background-image: url(../img/icon/linked-in.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        height: 38px;
+        width: 44px;
+    }
+
+    .linked-in:hover {
+        background-image: url(../img/icon/linked-in-hover.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: contain;
+        height: 38px;
+        width: 44px;
+    }
+    #mobile-shown {
+        display: none;
+    }
 }
 
-.adaptive{
-    position: absolute;
-    bottom: -8%;
-    left: 22%;
-    background-image: url('../img/adaptive.png');
-    width: 180.73px;
-    height: 158.56px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
+@media only screen and (max-width: 768px) {
+    .main-container {
+        max-width: 480px !important;
+    }
+
+    .header {
+        height: 62px;
+    }
+
+    .nav-side {
+        float: right;
+    }
+
+    .carousel-item {
+        min-height: 318px;
+    }
+
+    .border-grey {
+        border-bottom: 1px solid #707070;
+    }
+
+    .side-nav .collapsible>li a.collapsible-header:hover {
+        background-color: rgba(47, 47, 47, 1) !important;
+    }
+
+    /*background*/
+    .bg-dark {
+        background-color: #2F2F2F;
+    }
+
+    .bg-black {
+        background-color: #474443 !important;
+    }
+
+    .bg-yellow {
+        background-color: #FFC731 !important;
+    }
+
+    .bg-soft-yellow {
+        background-color: rgb(255, 199, 0, 0.22) !important;
+    }
+
+    .btn-dark {
+        background-color: #3E3B3B;
+    }
+
+    .bg-light-grey {
+        background-color: #F4F4F4;
+    }
+
+    /*end background*/
+
+    /*border*/
+    .border-dash-yellow {
+        border: 1px dotted #FFC731;
+    }
+
+    /*text color*/
+    .text-black {
+        color: #474443 !important;
+    }
+
+    .text-yellow {
+        color: #FFC731 !important;
+    }
+
+    /*end text color*/
+
+
+    /*.software-development-home{*/
+    /*	background-image: url(../img/hexagon-picture/software-development-home.png);*/
+    /*	background-position: center;*/
+    /*	background-repeat: no-repeat;*/
+    /*	background-size: contain;*/
+    /*}*/
+
+    /*.it-outsourcing-home{*/
+    /*	background-image: url(../img/hexagon-picture/it-outsourcing-home.png);*/
+    /*	background-position: center;*/
+    /*	background-repeat: no-repeat;*/
+    /*	background-size: contain;*/
+    /*}*/
+
+
+    .title-service-home {
+        min-height: 2rem;
+    }
+
+    .sub-service-home {
+        min-height: 4rem;
+    }
+
+    .title-service {
+        min-height: 2rem;
+    }
+
+    .sub-service {
+        min-height: 6rem;
+    }
+
+    .testimonial-carousel .carousel-control.left::before {
+        background-image: url('../img/icon/ic-prev.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .testimonial-carousel .carousel-control::before {
+        font-size: 5rem;
+        color: rgb(0, 0, 0, 0) !important;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .testimonial-carousel .carousel-control.right::before {
+        background-image: url('../img/icon/ic-next.png') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .carousel-item.slider-partner {
+        min-height: 165px !important;
+    }
+
+    .title-job {
+        min-height: 3rem;
+    }
+
+    section.join-us.text-center {
+        overflow-x: hidden;
+    }
+
+    #mobile-hidden{
+        display: none;
+    }
+
 }
-
-.adaptive:hover{
-    position: absolute;
-    bottom: -8%;
-    left: 0.5%;
-    background-image: url('../img/adaptive-hover.png');
-    width: 415.68px;
-    height: 161px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.join-hexa h5{
-    min-height: 3rem;
-}
-
-.positive{
-    background-image: url('../img/positive.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-.positive:hover{
-    background-image: url('../img/positive-hover.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-.continus{
-    background-image: url('../img/continus.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-.continus:hover{
-    background-image: url('../img/continus-hover.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-.work{
-    background-image: url('../img/work.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-.work:hover{
-    background-image: url('../img/work-hover.png');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain !important;
-}
-
-/*hexagon how IT*/
-.hexagon{
-    position: relative;
-}
-
-.logo-hexa{
-    padding: 14rem;
-}
-
-
-
-.tell-us{
-    position: absolute;
-    top: 0;
-    left: 43%;
-    background-image: url(../img/hexagon-picture/tell-us.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.tell-us:hover{
-    position: absolute;
-    top: 0;
-    left: 38%;
-    background-image: url(../img/hexagon-picture/tell-us-hover.png);
-    width: 262.5px;
-    height: 412.6px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.interview-developers{
-    position: absolute;
-    top: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/interview-developers.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.interview-developers:hover{
-    position: absolute;
-    top: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/interview-developers-hover.png);
-    width: 434.91px;
-    height: 307.58px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
-.review-developer{
-    position: absolute;
-    bottom: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/review-developers.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.review-developer:hover{
-    position: absolute;
-    bottom: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/review-developers-hover.png);
-    width: 437.72px;
-    height: 308.21px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.sign-agreement{
-    position: absolute;
-    bottom: 6%;
-    left: 43%;
-    background-image: url(../img/hexagon-picture/sign-agreement.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.sign-agreement:hover{
-    position: absolute;
-    bottom: 6%;
-    left: 38%;
-    background-image: url(../img/hexagon-picture/sign-agreement-hover.png);
-    width: 268.77px;
-    height: 424.84px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.start-project{
-    position: absolute;
-    bottom: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/start-project.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.start-project:hover{
-    position: absolute;
-    bottom: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/start-project-hover.png);
-    width: 435.17px;
-    height: 307.21px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-complete{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/project-complete.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-complete:hover{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/project-complete-hover.png);
-    width: 436.11px;
-    height: 307.42px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.hire-developer{
-    position: absolute;
-    top: 1%;
-    left: 7%;
-    background-image: url(../img/hexagon-picture/hire-developer.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.hire-developer:hover{
-    position: absolute;
-    top: 1;
-    left: 7%;
-    background-image: url(../img/hexagon-picture/hire-developer-hover.png);
-    width: 619.77px;
-    height: 409.11px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.arrow1 {
-    position: absolute;
-    top: 22%;
-    right: 37%;
-    background-image: url(../img/hexagon-picture/arrow1.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow2 {
-    position: absolute;
-    top: 48%;
-    right: 27%;
-    background-image: url(../img/hexagon-picture/arrow2.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow3 {
-    position: absolute;
-    bottom: 22%;
-    right: 37%;
-    background-image: url(../img/hexagon-picture/arrow3.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow4 {
-    position: absolute;
-    bottom: 22%;
-    left: 37%;
-    background-image: url(../img/hexagon-picture/arrow4.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-
-
-.arrow5 {
-    position: absolute;
-    top: 48%;
-    left: 27%;
-    background-image: url(../img/hexagon-picture/arrow5.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow6 {
-    position: absolute;
-    top: 22%;
-    left: 37%;
-    background-image: url(../img/hexagon-picture/arrow6.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow7 {
-    position: absolute;
-    top: 22%;
-    left: 19%;
-    background-image: url(../img/hexagon-picture/arrow7.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-
-/*hexagon how software*/
-.share{
-    position: absolute;
-    top: 0;
-    left: 43%;
-    background-image: url(../img/hexagon-picture/share.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.share:hover{
-    position: absolute;
-    top: 0;
-    left: 38%;
-    background-image: url(../img/hexagon-picture/share-hover.png);
-    width: 262.5px;
-    height: 473.49px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.quotation{
-    position: absolute;
-    top: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/quotation.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.quotation:hover{
-    position: absolute;
-    top: 23%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/quotation-hover.png);
-    width: 432.96px;
-    height: 360.64px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.software-launched{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/software-launched.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.software-launched:hover{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/software-launched-hover.png);
-    width: 438.14px;
-    height: 356.36px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.sign-agreement-software{
-    position: absolute;
-    top: 48%;
-    right: 17%;
-    background-image: url(../img/hexagon-picture/sign-agreement-software.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.sign-agreement-software:hover{
-    position: absolute;
-    top: 39%;
-    right: 17%;
-    background-image: url(../img/hexagon-picture/sign-agreement-software-hover.png);
-    width: 500.54px;
-    height: 237.64px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.testing{
-    position: absolute;
-    top: 48%;
-    left: 17%;
-    background-image: url(../img/hexagon-picture/testing.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.testing:hover{
-    position: absolute;
-    top: 38.5%;
-    left: 17%;
-    background-image: url(../img/hexagon-picture/testing-hover.png);
-    width: 503.21px;
-    height: 241.64px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-start{
-    position: absolute;
-    bottom:9%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/project-start.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-start:hover{
-    position: absolute;
-    bottom:9%;
-    right: 23%;
-    background-image: url(../img/hexagon-picture/project-start-hover.png);
-    width: 436.54px;
-    height: 395.12px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.development{
-    position: absolute;
-    bottom:9%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/development.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.development:hover{
-    position: absolute;
-    bottom:9%;
-    left: 23%;
-    background-image: url(../img/hexagon-picture/development-hover.png);
-    width: 431.83px;
-    height: 396.12px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.maintenance{
-    position: absolute;
-    top: 1%;
-    left: 7%;
-    background-image: url(../img/hexagon-picture/maintenance.png);
-    width: 156.58px;
-    height: 139.34px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.maintenance:hover{
-    position: absolute;
-    top: 1;
-    left: 7%;
-    background-image: url(../img/hexagon-picture/maintenance-hover.png);
-    width: 614.24px;
-    height: 475.25px;
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.arrow1-soft {
-    position: absolute;
-    top: 22%;
-    right: 37%;
-    background-image: url(../img/hexagon-picture/arrow1-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow2-soft {
-    position: absolute;
-    top: 41%;
-    right: 21%;
-    background-image: url(../img/hexagon-picture/arrow2-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-
-.arrow3-soft {
-    position: absolute;
-    bottom: 27%;
-    right: 20%;
-    background-image: url(../img/hexagon-picture/arrow3-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow4-soft {
-    position: absolute;
-    bottom: 10%;
-    left : 48%;
-    background-image: url(../img/hexagon-picture/arrow4-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 35.4px;
-    height: 17.15px;
-}
-
-.arrow5-soft {
-    position: absolute;
-    bottom: 27%;
-    left: 20%;
-    background-image: url(../img/hexagon-picture/arrow5-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow6-soft {
-    position: absolute;
-    top: 41%;
-    left: 21%;
-    background-image: url(../img/hexagon-picture/arrow6-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow7-soft {
-    position: absolute;
-    top: 22%;
-    left: 37%;
-    background-image: url(../img/hexagon-picture/arrow7-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.arrow8-soft {
-    position: absolute;
-    top: 22%;
-    left: 19%;
-    background-image: url(../img/hexagon-picture/arrow8-soft.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    display: block;
-    z-index: 9999;
-    width: 66.13px;
-    height: 32.03px;
-}
-
-.facebook{
-    background-image: url(../img/icon/facebook.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    height: 38px;
-    width: 44px;
-}
-
-.facebook:hover{
-    background-image: url(../img/icon/facebook-hover.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    height: 38px;
-    width: 44px;
-}
-
-.linked-in{
-    background-image: url(../img/icon/linked-in.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    height: 38px;
-    width: 44px;
-}
-
-.linked-in:hover{
-    background-image: url(../img/icon/linked-in-hover.png);
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: contain;
-    height: 38px;
-    width: 44px;
-}
-
-
-

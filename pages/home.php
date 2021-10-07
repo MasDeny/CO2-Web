@@ -1,5 +1,25 @@
     <section class="our-service">
-        <div class="container">
+        <div class="bg-light-grey pb-4" id="mobile-shown">
+            <div class="pt-5 pb-4">
+                <h4 class="text-uppercase font-weight-bold mb-0"><span class="text-black">our</span> <span
+                        class="text-yellow">services</span></h4>
+            </div>
+            <div class="software-development-home pb-4 pt-4">
+                <a href="how-software-development">
+                    <div class="text-center">
+                        <img class="img-fluid" src="../assets/img/hexagon-picture/software-development-home.png">
+                    </div>
+                </a>
+            </div>
+            <div class="it-outsourcing-home pb-4 pt-4">
+                <a href="how-it-outsourcing-works">
+                    <div class="text-center">
+                        <img class="img-fluid" src="../assets/img/hexagon-picture/it-outsourcing-home.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container" id="mobile-hidden">
             <div class="pt-5 pb-5 text-center">
                 <h4 class="font-weight-bold text-uppercase text-black">our <span class="text-yellow">services</span>
                 </h4>
@@ -37,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center" id="mobile-hidden">
                     <p class="text-black">You could be an entrepreneur, medium enterprise or even a multi-national
                         corporation - You’ve just had a stroke of genius and
                         can’t wait to seize this opportunity on your digital business idea.</p>
@@ -47,6 +67,7 @@
                         we are ready to help you manage and find the right developers for the job.</p>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -619,7 +640,7 @@
                             </div>
                         </div>
                     </form>
-                    <div class="text-left mt-4">
+                    <div class="text-left mt-4" id="make-center">
                         <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
                             onclick="validateForm();">submit</a>
                     </div>

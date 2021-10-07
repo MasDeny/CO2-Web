@@ -14,10 +14,11 @@ $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
 // layout up
 include("./layouts/meta.php");
 if ($page!=='thanks') {
-    include("./layouts/header.php");
     if (isMobile()) {
+        include("./layouts/header-mobile.php");
         include('./layouts/banner-mobile.php');
     } else {
+        include("./layouts/header.php");
         include('./layouts/banner.php');
     };
 }
@@ -95,6 +96,11 @@ switch ($page) {
 }
 
 // footer
-$page!=='thanks'&&include("./layouts/footer.php");
+if (isMobile()) {
+        $page!=='thanks'&&include("./layouts/footer-mobile.php");
+} else {
+        $page!=='thanks'&&include("./layouts/footer.php");
+};
+
 include("./layouts/script.php");
 ?>

@@ -6,7 +6,7 @@
                    </h4>
                </div>
                <div class="row">
-                   <div class="col-lg-6 col-md-6 text-left">
+                   <div class="col-lg-6 col-md-6 text-left" id="mobile-hidden">
                        <img class="img-fluid" src="../assets/img/about.png">
                    </div>
                    <div class="col-lg-6 col-md-6">
@@ -32,10 +32,10 @@
            <div class="text-center pt-5 pb-5">
                <h4 class="text-black text-uppercase font-weight-bold">READY TO SEE WHAT</h4>
                <h4 class="text-yellow text-uppercase font-weight-bold mb-5">WE’RE BUILDING?</h4>
-               <a href="index.php?page=contact-us#contact"
+               <a href="contact-us#contact"
                    class="btn bg-yellow btn-rounded text-uppercase text-black font-weight-bold mb-4">contact us</a>
                <p class="text-black mb-1">We care about protecting your data.</p>
-               <p class="text-black">Here is our <a href="index.php?page=privacy-policy"
+               <p class="text-black">Here is our <a href="privacy-policy"
                        class="text-yellow font-weight-bold">Privacy Policy</a></p>
            </div>
        </div>

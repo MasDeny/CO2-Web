@@ -8,10 +8,10 @@
                         <p class="text-black pt-4 mb-4">We are able to connect you with pre-vetted developers to achieve your business goals.</p>
                         <div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=how-it-outsourcing-works">know more</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="how-it-outsourcing-works">know more</a>
                             </div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=contact-us">contact us</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us">contact us</a>
                             </div>
                         </div>
                     </div>
@@ -20,10 +20,10 @@
                         <p class="text-black pt-4 mb-4">Our team of developers can help you build web and mobile applications.</p>
                         <div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=how-software-development">know more</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="how-software-development">know more</a>
                             </div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=contact-us">contact us</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us">contact us</a>
                             </div>
                         </div>
                     </div>
@@ -32,10 +32,10 @@
                         <p class="text-black pt-4 mb-4">Looking to develop your career?<br /> You will be offered opportunities to enhance your skills with us.</p>
                         <div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=join-us">know more</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="join-us">know more</a>
                             </div>
                             <div class="d-inline-block">
-                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="index.php?page=contact-us">contact us</a>
+                                <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us">contact us</a>
                             </div>
                         </div>
                     </div>

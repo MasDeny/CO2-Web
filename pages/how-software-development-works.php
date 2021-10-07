@@ -7,7 +7,7 @@
         <div id="software-works" class="container">
             <div class="hexagon">
                 <div class="text-center logo-hexa">
-                    <img class="pt-3 mt-5" src="img/hexagon-picture/hexa-co2.png">
+                    <img class="pt-3 mt-5" src="../assets/img/hexagon-picture/hexa-co2.png">
                 </div>
                 <div class="share mt-5"></div>
                 <div class="quotation"></div>

@@ -38,7 +38,7 @@
                                 <p class="text-white font-weight-bold text-service-home">Mobile applications</p>
                                 <p class="text-white font-weight-bold text-service-home">Website applications</p>
                                 <p class="text-white font-weight-bold text-service-home">Website designing</p>
-                                <a href="https://v2.codingcollective.com/dekstop/index.php?page=how-software-development-works"
+                                <a href="https://v2.codingcollective.com/dekstop/how-software-development-works"
                                     class="btn bg-yellow font-weight-bold text-black btn-rounded">know more</a>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                 <p class="text-white font-weight-bold mb-0 text-service-home">Frontend Developer</p>
                                 <p class="text-white font-weight-bold mb-0 text-service-home">Backend Developer</p>
                                 <p class="text-white font-weight-bold mb-4 text-service-home">Project Manager</p>
-                                <a href="https://v2.codingcollective.com/dekstop/index.php?page=how-it-outsourcing-works"
+                                <a href="https://v2.codingcollective.com/dekstop/how-it-outsourcing-works"
                                     class="btn bg-yellow font-weight-bold text-black btn-rounded">know more</a>
                             </div>
                         </div>
