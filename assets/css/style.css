@@ -884,6 +884,13 @@
     #mobile-shown {
         display: none;
     }
+
+    /* NEW THANKS PAGE */
+    .thanks-page{
+        padding: 70px 0;
+        text-align: center;
+    }
+    /* END THANKS PAGE */
 }
 
 @media only screen and (max-width: 768px) {
