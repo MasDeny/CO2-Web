@@ -889,6 +889,11 @@
     .thanks-page{
         padding: 70px 0;
         text-align: center;
+        background-image: url('../img/background-service.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        width: 100% !important;
     }
     /* END THANKS PAGE */
 }

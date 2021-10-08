@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container our-sevice"> -->
     <div class="thanks-page">
         <div>
             <div class="text-center">
@@ -25,4 +25,4 @@
             </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
