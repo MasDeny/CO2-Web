@@ -15,8 +15,8 @@ $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
 include("./layouts/meta.php");
 if ($page!=='thanks') {
     if (isMobile()) {
-        include("./layouts/header-mobile.php");
-        include('./layouts/banner-mobile.php');
+        include("./layouts/mobile/header-mobile.php");
+        include('./layouts/mobile/banner-mobile.php');
     } else {
         include("./layouts/header.php");
         include('./layouts/banner.php');
@@ -97,7 +97,7 @@ switch ($page) {
 
 // footer
 if (isMobile()) {
-        $page!=='thanks'&&include("./layouts/footer-mobile.php");
+        $page!=='thanks'&&include("./layouts/mobile/footer-mobile.php");
 } else {
         $page!=='thanks'&&include("./layouts/footer.php");
 };
