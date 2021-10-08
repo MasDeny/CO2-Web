@@ -1,4 +1,4 @@
-   <section class="about-us">
+   <section class="about-us" id="make-center">
        <div class="container">
            <div class="pt-5 pb-5">
                <div class="text-center">

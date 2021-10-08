@@ -1,4 +1,4 @@
-    <section class="service">
+    <section class="service" id="make-center">
         <div class="container">
             <div class="pt-5 pb-5">
                 <div class="text-center">
@@ -17,7 +17,7 @@
 
                         <p>Save your time and budget and get engaged with our developers.</p>
                     </div>
-                    <div class="col-lg-6 text-right">
+                    <div class="col-lg-6 text-right" id="mobile-hidden">
                         <img src="../assets/img/service.png">
                     </div>
                 </div>
@@ -25,7 +25,62 @@
         </div>
     </section>
 
-    <section class="ourservice">
+    <section id="mobile-shown">
+        <div class="software-development-home pb-5 pt-5">
+            <!-- <div class="mb-3">
+                    <img src="img/icon/ic-software-development.png">
+                </div>
+                <h5 class="text-uppercase font-weight-bold text-white title-service mb-0">software development</h5>
+                <div class="sub-service">
+                    <p class="text-white mb-1">Mobile applications.</p>
+                    <p class="text-white mb-1">Website applications</p>
+                    <p class="text-white mb-1">Website designing</p>
+                </div>
+                <a class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded" href="">know more</a> -->
+            <a href="how-software-development-works">
+                <div class="text-center">
+                    <img class="img-fluid" src="../assets/img/hexagon-picture/software-development-mobile.png">
+                </div>
+            </a>
+        </div>
+        <div class="it-outsourcing-home pb-5">
+            <a href="how-it-outsourcing-work">
+                <div class="text-center">
+                    <img class="img-fluid" src="../assets/img/hexagon-picture/it-outsourcing-mobile.png">
+                </div>
+            </a>
+            <!-- <div class="mb-2 mt-5">
+                    <img src="img/icon/ic-it-outsourcing.png">
+                </div>
+                <h5 class="text-uppercase font-weight-bold text-white title-service mb-0">it outsourcing</h5>
+                <div class="sub-service">
+                    <p class="text-white mb-0">Graphic Designer</p>
+                    <p class="text-white mb-0">QA Engineer</p>
+                    <p class="text-white mb-0">Frontend Developer</p>
+                    <p class="text-white mb-0">Backend Developer</p>
+                    <p class="text-white mb-0">Project Manager</p>
+                </div>
+                <a class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded mb-5" href="">know more</a> -->
+        </div>
+        <h5 class=" text-center font-weight-bold text-black mt-2 mb-5">We offer tech expertise<br /> and IT support. Our development<br /> services include strategy consulting,<br />CX design, and life-cycle management<br />of customized products.</h5>
+        <div class="text-center pb-5">
+            <img src="../assets/img/icon/profesional.png">
+            <p class="text-black mt-3 mb-0">Our rigorous recruitment process<br />means you only work with the
+                most<br />competent professionals.</p>
+        </div>
+        <div class="text-center pb-5">
+            <img src="../assets/img/icon/adaptive.png">
+            <p class="text-black mt-3 mb-0">Tailor your very own developer team.<br />Change your team make-up any
+                time<br />based on project goals.</p>
+        </div>
+        <div class="text-center pb-5">
+            <img src="../assets/img/icon/cost-effective.png">
+            <p class="text-black mt-3 mb-0">Pay only for the resources you use,<br />with the best rates in the
+                market<br />throughout your project.</p>
+        </div>
+    </section>
+
+    <section class="ourservice" id="mobile-hidden">
         <div class="container">
             <div class="text-center">
                 <div class="row">
@@ -72,7 +127,7 @@
         </div>
     </section>
 
-    <section class="why-co2">
+    <section class="why-co2" id="mobile-hidden">
         <div class="container">
             <div class="pt-5 pb-5 mb-5">
                 <div>
@@ -94,7 +149,7 @@
         </div>
     </section>
 
-    <section class="">
+    <section id="mobile-hidden">
         <div class="container">
             <div class="pt-5 pb-5">
                 <div class="row">
