@@ -1,5 +1,4 @@
 
-<body>
     <!--Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark pb-0" id="mobile-hidden">
         <div class="container">
@@ -24,8 +23,8 @@
                     <li class="nav-item pl-3">
                         <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='contact-us'){echo'active';} ?>" href="contact-us">contact</a>
                     </li>
-                    <li class="nav-item pl-3 mb-2">
-                        <a class="nav-link btn btn-rounded bg-yellow text-uppercase font-weight-bold px-4" href="home#tell-us-home" style="font-size:16px;">work with us</a>
+                    <li class="work-with-us pl-3">
+                        <a class="nav-link btn btn-rounded text-uppercase font-weight-bold px-4" href="home#tell-us-home" style="font-size:16px;">work with us</a>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,78 @@
 /*text color*/
-@media only screen and (min-width: 768px) {
+html {
+    scroll-behavior: smooth;
+}
+
+a#contacts:hover {
+    color: rgb(211, 172, 65);
+}
+
+a#contacts {
+    color: #bd8a00;
+    font-style: italic;
+}
+
+.select-wrapper.active span.caret, .select-wrapper.active label.mdb-main-label {
+    color: #FFC731 !important;
+}
+
+li[role="option"]>span.filtrable {
+    color: rgb(66, 68, 66) !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-bottom-color: #FFC731 !important;
+    box-shadow: 0 2px 1px #FFC731 !important;
+    /* outline: 0 none !important; */
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #FFC731 !important;
+    border-color: #FFD635 !important;
+}
+
+.form-control:after{
+    background-color: #FFD635 !important;
+}
+
+/* custom-checkbox */
+.custom-checkbox .custom-control-input:checked:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 238, 0, 0.973)
+}
+
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 238, 0, 0.973);
+    border-color: #FFD635 !important;
+}
+
+.custom-checkbox .custom-control-input:active~.custom-control-label::before {
+    background-color: #f3dea5;
+}
+
+/* form focus label */
+.md-form:focus-within label {
+    color: #646464 !important;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    #carousel {
+        background-color: #FFC731;
+    }
+    .work-with-us>a {
+        color: white !important;
+        background-color: #FFC731 !important;
+        bottom: 0.5vh;
+    }
+
+    .work-with-us>a:hover {
+        background-color: #FFD635 !important;
+        bottom: 0.3vh;
+    }
+
     .text-black {
         color: #474443 !important;
     }
@@ -43,6 +116,7 @@
     .nav-item .nav-link:hover {
         border-bottom: 4px solid #FFD635;
         color: #FFF !important;
+        top: 0.1vh;
     }
 
 
@@ -881,6 +955,7 @@
         height: 38px;
         width: 44px;
     }
+
     #mobile-shown {
         display: none;
     }
@@ -888,11 +963,12 @@
 
 @media only screen and (max-width: 768px) {
     .main-container {
-        max-width: 480px !important;
+        max-width: 100% !important;
     }
 
     .header {
         height: 62px;
+        width: 100%;
     }
 
     .nav-side {
@@ -1019,15 +1095,15 @@
         overflow-x: hidden;
     }
 
-    #mobile-hidden{
+    #mobile-hidden {
         display: none;
     }
-    
-    div#carousel{
-        display:none
+
+    div#carousel {
+        display: none
     }
 
-    #make-center{
+    #make-center {
         text-align: center;
     }
 

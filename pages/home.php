@@ -610,8 +610,8 @@
                                 </div>
                                 <p>What Are You Looking to Develop? <span class="text-danger">*</span></p>
                                 <div class="custom-control custom-checkbox mb-3 mt-2 d-inline-block mr-3">
-                                    <input type="checkbox" class="custom-control-input" id="webstie" name="website">
-                                    <label class="custom-control-label" for="webstie">Website</label>
+                                    <input type="checkbox" class="custom-control-input" id="website" name="website">
+                                    <label class="custom-control-label" for="website">Website</label>
                                 </div>
                                 <div class="custom-control custom-checkbox mb-3 mt-2 d-inline-block mr-3">
                                     <input type="checkbox" class="custom-control-input" id="android" name="android">

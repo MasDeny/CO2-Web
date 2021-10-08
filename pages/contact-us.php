@@ -474,8 +474,10 @@
                             </div>
                         </form>
                         <div class="text-center mt-5 mb-5">
-                            <p>For any other inquiries please contact <a
-                                    href=mailto:support@codingcollective.com?subject="ContactUs">support@codingcollective.com</a>
+                            <p>For any other inquiries please contact 
+                                <a href=mailto:support@codingcollective.com?subject="ContactUs" id="contacts">
+                                    support@codingcollective.com
+                                </a>
                             </p>
                             <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
                                 onclick="document.getElementById('contact-form').submit();">submit</a>
