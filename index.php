@@ -11,21 +11,20 @@ function isMobile(){
 }
 
 $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
-// layout up
+// layout 
+include('./layouts/meta.php');
 if ($page!=='thanks') {
-    include("./layouts/meta.php");
     include("./layouts/header.php");
     include('./layouts/banner.php');
 }
-
 // router
 switch ($page) {
     case 'home':
-        include("./pages/home.php");
+        include("./pages/home/home.php");
         break;
 
     case 'about-us':
-        include("./pages/about-us.php");
+        include("./pages/about/about-us.php");
         break;
 
     case 'service':
@@ -33,11 +32,11 @@ switch ($page) {
         break;
     
     case 'join-us':
-        include("./pages/join-us.php");
+        include("./pages/join/join-us.php");
         break; 
 
     case 'contact-us':
-        include("./pages/contact-us.php");
+        include("./pages/contact/contact-us.php");
         break;
         
     case 'backend-developer-detail':
@@ -82,7 +81,7 @@ switch ($page) {
         break;
 
     case 'thanks':
-        include("./pages/how-it-outsourcing-works.php");
+        include("./pages/thanks/thanks-page.php");
         break; 
     
     default:
