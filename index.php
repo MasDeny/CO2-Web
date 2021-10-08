@@ -11,26 +11,20 @@ function isMobile(){
 }
 
 $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
-// layout up
-include("./layouts/meta.php");
+// layout 
+include('./layouts/meta.php');
 if ($page!=='thanks') {
-    if (isMobile()) {
-        include("./layouts/header-mobile.php");
-        include('./layouts/banner-mobile.php');
-    } else {
-        include("./layouts/header.php");
-        include('./layouts/banner.php');
-    };
+    include("./layouts/header.php");
+    include('./layouts/banner.php');
 }
-
 // router
 switch ($page) {
     case 'home':
-        include("./pages/home.php");
+        include("./pages/home/home.php");
         break;
 
     case 'about-us':
-        include("./pages/about-us.php");
+        include("./pages/about/about-us.php");
         break;
 
     case 'service':
@@ -38,11 +32,11 @@ switch ($page) {
         break;
     
     case 'join-us':
-        include("./pages/join-us.php");
+        include("./pages/join/join-us.php");
         break; 
 
     case 'contact-us':
-        include("./pages/contact-us.php");
+        include("./pages/contact/contact-us.php");
         break;
         
     case 'backend-developer-detail':
@@ -87,7 +81,7 @@ switch ($page) {
         break;
 
     case 'thanks':
-        include("./pages/how-it-outsourcing-works.php");
+        include("./pages/thanks/thanks-page.php");
         break; 
     
     default:
@@ -96,11 +90,6 @@ switch ($page) {
 }
 
 // footer
-if (isMobile()) {
-        $page!=='thanks'&&include("./layouts/footer-mobile.php");
-} else {
-        $page!=='thanks'&&include("./layouts/footer.php");
-};
-
+$page!=='thanks'&&include("./layouts/footer.php");
 include("./layouts/script.php");
 ?>

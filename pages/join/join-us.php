@@ -1,11 +1,11 @@
-    <section class="join">
+    <section class="join" id="make-center">
         <div id="join-us" class="container">
             <div class="pt-5 pb-5">
                 <div class="text-center">
                     <h4 class="font-weight-bold text-uppercase text-black mb-5">join <span class="text-yellow">us</span>
                     </h4>
                 </div>
-                <div class="row">
+                <div class="row" id="mobile-hidden">
                     <div class="col-lg-4 col-md-4 col-12">
                         <a href="talent-acquisition-internship-detail">
                             <div class="d-inline-block align-middle">
@@ -111,7 +111,51 @@
                     </div>
                 </div> -->
 
-                <div class="hexagon-join pt-5">
+                <div id="mobile-shown">
+                    <div class="row">
+                        <div class="col-6 pb-5">
+                            <a href="react-js-developer-detail">
+                                <img class="img-fluid" src="../assets/img/icon/react.png">
+                                <h5 class="text-uppercase font-weight-bold text-black title-job">react JS <br />developer
+                                </h5>
+                                <p class="font-weight-bold text-yellow mb-0">1 position</p>
+                            </a>
+                        </div>
+                        <div class="col-6 pb-5">
+                            <a href="backend-developer-detail">
+                                <img class="img-fluid" src="../assets/img/icon/developer.png">
+                                <h5 class="text-uppercase font-weight-bold text-black title-job">backend <br />developer
+                                </h5>
+                                <p class="font-weight-bold text-yellow mb-0">1 position</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 pb-5">
+                            <a href="talent-acquisition-internship-detail">
+                                <img class="img-fluid" src="../assets/img/icon/internship.png">
+                                <h5 class="text-uppercase font-weight-bold text-black title-job">Talent Acquisition
+                                    Internship</h5>
+                                <p class="font-weight-bold text-yellow mb-0">1 position</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="bg-light-grey text-center" id="mobile-shown">
+                    <div class="pt-5 pb-5">
+                        <img class="img-fluid" src="../assets/img/hexagon-picture/profesional.png">
+                    </div>
+                    <div class="pb-5">
+                        <img class="img-fluid" src="../assets/img/hexagon-picture/continius.png">
+                    </div>
+                    <div class="pb-5">
+                        <img class="img-fluid" src="../assets/img/hexagon-picture/work-play-hard.png">
+                    </div>
+                </section>
+
+                <div class="hexagon-join pt-5" id="mobile-hidden">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 positive pl-0 pr-0">
                             <div class="text-center py-5 join-hexa">
