@@ -1022,5 +1022,13 @@
     #mobile-hidden{
         display: none;
     }
+    
+    div#carousel{
+        display:none
+    }
+
+    #make-center{
+        text-align: center;
+    }
 
 }
