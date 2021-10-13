@@ -1,6 +1,5 @@
 <!-- captcha import -->
-    <link href="../../assets/js/puzzle-captcha/slidercaptcha.min.css" rel="stylesheet" />
-    <script src="../../assets/js/puzzle-captcha/longbow.slidercaptcha.js"></script>
+<link href="../../assets/js/puzzle-captcha/slidercaptcha.min.css" rel="stylesheet" />
 <div class="modal fade" id="captchaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
@@ -23,3 +22,5 @@
         </div>
     </div>
 </div>
+<script src="../../assets/js/puzzle-captcha/longbow.slidercaptcha.js"></script>
+<script src="../../assets/js/captcha.js"></script>
