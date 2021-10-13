@@ -6,7 +6,7 @@
                 <h1 class="font-weight-bold text-uppercase text-black">THANKYOU!</h1>
                 <p class="text-black">Thank you for submitting your inquiries, we will contact you shortly</p>
                 <div class="pt-5 pb-5">
-                    <a href="contact-us#contact" class="btn bg-yellow btn-rounded text-uppercase text-black font-weight-bold mb-4">contact us</a>
+                    <a href="home" class="btn bg-yellow btn-rounded text-uppercase text-black font-weight-bold mb-4">BACK TO HOME</a>
                 </div>
             </div>
 
