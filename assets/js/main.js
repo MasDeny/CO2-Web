@@ -8,26 +8,55 @@
         divheader.style.background = 'white';
     });
 
+    var captcha = sliderCaptcha({
+        height: 175,
+        id: 'captcha',
+        onSuccess: function () {
+            console.log('success captcha');
+            $('#captchaModal').modal('hide')
+            captcha.reset();
+        }
+    });
+
+    $("#submitHome").on('click', validateForm)
+
     $(document).ready(function () {
         // SideNav Button Initialization
+        $('.mdb-select').materialSelect();
         $(".button-collapse").sideNav({
             slim: true,
             edge: 'right',
         });
     });
 
+
     // gesture banner
     $('.carousel').carousel({
         touch: true // default
     })
 
-    // Material Select Initialization
-    $(document).ready(function () {
-        $('.mdb-select').materialSelect();
-    });
+    $('#amount').focusout(function (e) {
+        var reg = /^\d+$/;
+        if (reg.test(this.value)) {
+            const USD = value => currency(value, {
+                symbol: "",
+                precision: 2
+            });
+            let num = USD(this.value).format();
+            $('#amount').val(num)
+        } else {
+            toastr["error"]("Please input the number", "coddingcollective.com", {
+                'positionClass': "md-toast-top-center",
+                "timeOut": "1500"
+            });
+            $('#amount').val(0.00)
+        }
+    })
+
     //toastr
     // contact form
     function validateForm() {
+        captcha.reset();
         var name = document.getElementById('name').value;
         if (name == "") {
             //document.querySelector('.status').innerHTML = "Name cannot be empty";
@@ -78,6 +107,13 @@
         var website = $('input:checkbox[name=website]').is(':checked');
         var android = $('input:checkbox[name=android]').is(':checked');
         var ios = $('input:checkbox[name=ios]').is(':checked');
+        if (!(website || android || ios)) {
+            toastr["error"]("Empty type development", "coddingcollective.com", {
+                'positionClass': "md-toast-top-center",
+                "timeOut": "1500"
+            });
+            return false;
+        }
         var message = document.getElementById('message').value;
         if (message == "") {
             //document.querySelector('.status').innerHTML = "Message cannot be empty";
@@ -91,7 +127,6 @@
         var country = document.getElementById('country').value;
         var amount = document.getElementById('amount').value;
         //   document.querySelector('.status').innerHTML = "Sending...";
-        document.getElementById('status').innerHTML = "Sending...";
         formData = {
             'name': $('input[name=name]').val(),
             'email': $('input[name=email]').val(),
@@ -108,48 +143,48 @@
         };
 
 
-        $.ajax({
-            url: "../services/mail.php",
-            type: "POST",
-            data: formData,
-            success: function (data, textStatus, jqXHR) {
-                //$('#status').text("Email sent!");
-                toastr["success"]("Email sent", "coddingcollective.com", {
-                    'positionClass': "md-toast-top-center",
-                    "timeOut": "1500"
-                });
-                setTimeout(function () {
-                    location.reload(); //Refresh page
-                }, 100);
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                $('#status').text(jqXHR);
-            }
-        });
+        // $.ajax({
+        //     url: "../services/mail.php",
+        //     type: "POST",
+        //     data: formData,
+        //     success: function (data, textStatus, jqXHR) {
+        //         //$('#status').text("Email sent!");
+        //         toastr["success"]("Email sent", "coddingcollective.com", {
+        //             'positionClass': "md-toast-top-center",
+        //             "timeOut": "1500"
+        //         });
+        //         setTimeout(function () {
+        //             location.reload(); //Refresh page
+        //         }, 100);
+        //     },
+        //     error: function (jqXHR, textStatus, errorThrown) {
+        //         $('#status').text(jqXHR);
+        //     }
+        // });
 
-        formData2 = {
-            'name': $('input[name=name]').val(),
-            'email': $('input[name=email]').val(),
-            'mobilenumber': $('input[name=mobilenumber]').val(),
-            'position': $('input[name=position]').val(),
-            'file': $('input[name=file]').val(),
-        };
+        // formData2 = {
+        //     'name': $('input[name=name]').val(),
+        //     'email': $('input[name=email]').val(),
+        //     'mobilenumber': $('input[name=mobilenumber]').val(),
+        //     'position': $('input[name=position]').val(),
+        //     'file': $('input[name=file]').val(),
+        // };
 
 
-        $.ajax({
-            url: "../services/mail-job.php",
-            type: "POST",
-            data: formData2,
-            success: function (data, textStatus, jqXHR) {
-                $('#status').text("Email sent!");
-                //$('#status').text(data.message);
-                //if (data.code) //If mail was sent successfully, reset the form.
-                //$('#contact-form').closest('form').find("input[type=text], textarea").val("");
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                $('#status').text(jqXHR);
-            }
-        });
+        // $.ajax({
+        //     url: "../services/mail-job.php",
+        //     type: "POST",
+        //     data: formData2,
+        //     success: function (data, textStatus, jqXHR) {
+        //         $('#status').text("Email sent!");
+        //         //$('#status').text(data.message);
+        //         //if (data.code) //If mail was sent successfully, reset the form.
+        //         //$('#contact-form').closest('form').find("input[type=text], textarea").val("");
+        //     },
+        //     error: function (jqXHR, textStatus, errorThrown) {
+        //         $('#status').text(jqXHR);
+        //     }
+        // });
     }
     $(document).ready(function () {
 

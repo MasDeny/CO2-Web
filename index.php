@@ -21,6 +21,7 @@ if ($page!=='thanks') {
 switch ($page) {
     case 'home':
         include("./pages/home/home.php");
+        include("./pages/captcha.php");
         break;
 
     case 'about-us':
