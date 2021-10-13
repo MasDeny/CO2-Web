@@ -13,14 +13,15 @@ function isMobile(){
 $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
 // layout 
 include('./layouts/meta.php');
+include("./layouts/header.php");
 if ($page!=='thanks') {
-    include("./layouts/header.php");
     include('./layouts/banner.php');
 }
 // router
 switch ($page) {
     case 'home':
         include("./pages/home/home.php");
+        include("./pages/captcha.php");
         break;
 
     case 'about-us':
@@ -37,6 +38,7 @@ switch ($page) {
 
     case 'contact-us':
         include("./pages/contact/contact-us.php");
+        include("./pages/captcha.php");
         break;
         
     case 'backend-developer-detail':
@@ -85,11 +87,12 @@ switch ($page) {
         break; 
     
     default:
-        include("./pages/home.php");
+        include("./pages/home/home.php");
+        include("./pages/captcha.php");
         break;  
 }
 
 // footer
-$page!=='thanks'&&include("./layouts/footer.php");
+include("./layouts/footer.php");
 include("./layouts/script.php");
 ?>

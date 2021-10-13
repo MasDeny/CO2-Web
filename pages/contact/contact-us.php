@@ -30,7 +30,7 @@
                     <!--</div>-->
 
                     <div class="col-lg-12 col-md-12">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form id="contact-form" name="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="md-form mb-5">
@@ -39,7 +39,7 @@
                                                 class="text-danger">*</span></label>
                                     </div>
                                     <div class="md-form mb-5">
-                                        <input type="text" id="mobilenumber" name="mobilenumber" class="form-control"
+                                        <input type="text" id="mobile-number" name="mobile-number" class="form-control"
                                             required>
                                         <label for="subject" class="">Mobile Number <span
                                                 class="text-danger">*</span></label>
@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="md-form mb-5">
-                                        <input type="text" id="companyname" name="companyname" class="form-control"
+                                        <input type="text" id="company-name" name="company-name" class="form-control"
                                             required>
                                         <label for="subject" class="">Company Name</label>
                                     </div>
@@ -474,11 +474,13 @@
                             </div>
                         </form>
                         <div class="text-center mt-5 mb-5">
-                            <p>For any other inquiries please contact <a
-                                    href=mailto:support@codingcollective.com?subject="ContactUs">support@codingcollective.com</a>
+                            <p>For any other inquiries please contact 
+                                <a href=mailto:support@codingcollective.com?subject="ContactUs" id="contacts">
+                                    support@codingcollective.com
+                                </a>
                             </p>
                             <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                onclick="document.getElementById('contact-form').submit();">submit</a>
+                                onclick="validateForm('contact-us')">submit</a>
                         </div>
                         <div class="status"></div>
                     </div>
