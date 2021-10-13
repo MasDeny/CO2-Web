@@ -13,8 +13,8 @@ function isMobile(){
 $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : "home";
 // layout 
 include('./layouts/meta.php');
+include("./layouts/header.php");
 if ($page!=='thanks') {
-    include("./layouts/header.php");
     include('./layouts/banner.php');
 }
 // router
@@ -91,6 +91,6 @@ switch ($page) {
 }
 
 // footer
-$page!=='thanks'&&include("./layouts/footer.php");
+include("./layouts/footer.php");
 include("./layouts/script.php");
 ?>
