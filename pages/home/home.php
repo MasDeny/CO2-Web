@@ -642,7 +642,7 @@
                     </form>
                     <div class="text-left mt-4" id="make-center">
                         <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                        data-toggle="modal" data-target="#captchaModal" id="submitHome">submit</a>
+                        onclick="validateForm('project')" id="submitHome">submit</a>
                     </div>
                     <div class="status" id="status"></div>
                 </div>

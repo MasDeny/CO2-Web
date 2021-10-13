@@ -13,12 +13,10 @@
         id: 'captcha',
         onSuccess: function () {
             console.log('success captcha');
-            $('#captchaModal').modal('hide')
             captcha.reset();
+            window.location.href = '/thanks'
         }
     });
-
-    $("#submitHome").on('click', validateForm)
 
     $(document).ready(function () {
         // SideNav Button Initialization
@@ -55,7 +53,7 @@
 
     //toastr
     // contact form
-    function validateForm() {
+    function validateForm(type) {
         captcha.reset();
         var name = document.getElementById('name').value;
         if (name == "") {
@@ -104,15 +102,18 @@
             });
             return false;
         }
-        var website = $('input:checkbox[name=website]').is(':checked');
-        var android = $('input:checkbox[name=android]').is(':checked');
-        var ios = $('input:checkbox[name=ios]').is(':checked');
-        if (!(website || android || ios)) {
-            toastr["error"]("Empty type development", "coddingcollective.com", {
-                'positionClass': "md-toast-top-center",
-                "timeOut": "1500"
-            });
-            return false;
+        if(type==='project'){
+            var website = $('input:checkbox[name=website]').is(':checked');
+            var android = $('input:checkbox[name=android]').is(':checked');
+            var ios = $('input:checkbox[name=ios]').is(':checked');
+            if (!(website || android || ios)) {
+                toastr["error"]("Empty type development", "coddingcollective.com", {
+                    'positionClass': "md-toast-top-center",
+                    "timeOut": "1500"
+                });
+                return false;
+            }
+            var amount = document.getElementById('amount').value;
         }
         var message = document.getElementById('message').value;
         if (message == "") {
@@ -125,13 +126,12 @@
         }
         var industry = document.getElementById('industry').value;
         var country = document.getElementById('country').value;
-        var amount = document.getElementById('amount').value;
         //   document.querySelector('.status').innerHTML = "Sending...";
         formData = {
             'name': $('input[name=name]').val(),
             'email': $('input[name=email]').val(),
-            'mobilenumber': $('input[name=mobilenumber]').val(),
-            'companyname': $('input[name=companyname]').val(),
+            'mobilenumber': $('input[name=mobile-number]').val(),
+            'companyname': $('input[name=company-name]').val(),
             'industry': industry,
             'country': country,
             'amount': $('input[name=amount]').val(),
@@ -141,7 +141,8 @@
             'subject': "CO2 Project",
             'message': $('textarea[name=message]').val()
         };
-
+        console.log(formData);
+        $('#captchaModal').modal('show')
 
         // $.ajax({
         //     url: "../services/mail.php",

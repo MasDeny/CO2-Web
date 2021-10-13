@@ -38,6 +38,7 @@ switch ($page) {
 
     case 'contact-us':
         include("./pages/contact/contact-us.php");
+        include("./pages/captcha.php");
         break;
         
     case 'backend-developer-detail':
@@ -86,7 +87,8 @@ switch ($page) {
         break; 
     
     default:
-        include("./pages/home.php");
+        include("./pages/home/home.php");
+        include("./pages/captcha.php");
         break;  
 }
 
