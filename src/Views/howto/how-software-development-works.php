@@ -1,3 +1,7 @@
+<?php 
+    require_once APP_ROOT . '/src/Views/layouts/meta.php';
+    require_once APP_ROOT . '/src/Views/layouts/header.php';
+?>
     <!-- hexagon -->
     <section class="step-works" id="mobile-shown">
         <div class="pb-5">
@@ -273,5 +277,8 @@
 
         </div>
     </div>
-
+<?php 
+    require_once APP_ROOT . '/src/Views/layouts/footer.php';
+    require_once APP_ROOT . '/src/Views/layouts/script.php';
+?>
     <!-- end hexagon -->

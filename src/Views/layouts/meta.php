@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Coding Collective</title>
+    <title><?php echo $title ?> - Coding Collective</title>
     <!-- MDB icon -->
     <link rel="icon" href="../assets/img/co2-favicon.png" type="image/x-icon">
     <!-- Font Awesome -->
