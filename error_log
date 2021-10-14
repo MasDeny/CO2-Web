@@ -1,0 +1,2 @@
+[12-Oct-2021 09:40:13 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) in /home/codingcollective/public_html/experimental.codingcollective.com/src/Core/Helper.php on line 89
+[12-Oct-2021 09:40:22 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) in /home/codingcollective/public_html/experimental.codingcollective.com/src/Core/Helper.php on line 89

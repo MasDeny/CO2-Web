@@ -1,0 +1,32 @@
+{
+    "name": "deny/co2-web",
+    "description": "Web Project Coding Collective",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Deny Mazda",
+            "email": "kickdeny@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "env.php",
+            "src/routes.php"
+        ],
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
