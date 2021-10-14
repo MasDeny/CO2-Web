@@ -7,25 +7,25 @@ class HomeController extends Controller
 {    
     public function index()
     {
-        $this->render('home/home');
+        $this->view('home/home');
     }
     public function aboutUs()
     {
-        $this->render('about/about-us');
+        $this->view('about/about-us');
     }
     public function joinUs()
     {
-        $this->render('join/join-us');
+        $this->view('join/join-us');
     }
     public function contactUs(){
-        $this->render('contact/contact-us');
+        $this->view('contact/contact-us');
     }
     public function services()
     {
-        $this->render('service/more-service');
+        $this->view('service/more-service');
     }
     public function thanks()
     {
-        $this->render('thanks/thanks-page');
+        $this->view('thanks/thanks-page');
     }
 }

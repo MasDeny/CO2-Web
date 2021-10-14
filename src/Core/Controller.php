@@ -3,7 +3,7 @@ namespace App\Core;
 
 class Controller
 {
-    public function render($view, $params = []): string
+    public function view($view, $params = [])
     {
         return Router::parseRender($view, $params);
     }
