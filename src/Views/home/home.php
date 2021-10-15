@@ -10,14 +10,14 @@
                         class="text-yellow">services</span></h4>
             </div>
             <div class="software-development-home pb-4 pt-4">
-                <a href="how-software-development-works">
+                <a href="/how-software-development-works">
                     <div class="text-center">
                         <img class="img-fluid" src="../assets/img/hexagon-picture/software-development-home.png">
                     </div>
                 </a>
             </div>
             <div class="it-outsourcing-home pb-4 pt-4">
-                <a href="how-it-outsourcing-works">
+                <a href="/how-it-outsourcing-works">
                     <div class="text-center">
                         <img class="img-fluid" src="../assets/img/hexagon-picture/it-outsourcing-home.png">
                     </div>
@@ -31,14 +31,14 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="justify-content-end">
-                            <a href="how-software-development-works">
+                            <a href="/how-software-development-works">
                                 <div class="software-development-home p-5 m-5">
                                     <img src="../assets/img/icon/ic-software-development.png">
                                     <h4 class="mt-4 mb-3 text-white font-weight-bold text-uppercase">software
                                         development</h4>
                                     <p class="text-white font-weight-bold mb-5 text-service-home">Our skillful
                                         developers are ready to turn<br /> your IDEA INTO REALIZATION.</p>
-                                    <a href="how-software-development-works"
+                                    <a href="/how-software-development-works"
                                         class="btn bg-yellow font-weight-bold text-black btn-rounded">know more</a>
                                 </div>
                             </a>
@@ -47,14 +47,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="justify-content-end">
-                            <a href="how-it-outsourcing-works">
+                            <a href="/how-it-outsourcing-works">
                                 <div class="it-outsourcing-home p-5 m-5">
                                     <img src="../assets/img/icon/ic-it.png">
                                     <h4 class="mt-3 mb-3 text-white font-weight-bold text-uppercase">it outsourcing</h4>
                                     <p class="text-white font-weight-bold mb-4 text-service-home">We help you have a
                                         DEDICATED TEAM<br />without worrying about administrative<br />things and
                                         workplace.</p>
-                                    <a href="how-it-outsourcing-works"
+                                    <a href="/how-it-outsourcing-works"
                                         class="btn bg-yellow font-weight-bold text-black btn-rounded">know more</a>
                                 </div>
                             </a>

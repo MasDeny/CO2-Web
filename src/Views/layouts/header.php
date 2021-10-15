@@ -2,7 +2,7 @@
     <!--Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark pb-0" id="mobile-hidden">
         <div class="container">
-            <a class="navbar-brand pb-3" href="home">
+            <a class="navbar-brand pb-3" href="/home">
                 <img src="../assets/img/logo/logo.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,17 +11,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item pl-3">
-                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='about-us'){echo'active';} ?>" href="about-us">about us
+                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='about-us'){echo'active';} ?>" href="/about-us">about us
                         </a>
                     </li>
                     <li class="nav-item pl-3">
-                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='service'){echo'active';} ?>" href="service">services</a>
+                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='service'){echo'active';} ?>" href="/service">services</a>
                     </li>
                     <li class="nav-item pl-3">
-                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='join-us'){echo'active';} ?>" href="join-us">join us</a>
+                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='join-us'){echo'active';} ?>" href="/join-us">join us</a>
                     </li>
                     <li class="nav-item pl-3">
-                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='contact-us'){echo'active';} ?>" href="contact-us">contact</a>
+                        <a class="nav-link py-3 text-uppercase font-weight-bold <?php if(!empty($_GET['page'])&&$_GET['page']=='contact-us'){echo'active';} ?>" href="/contact-us">contact</a>
                     </li>
                     <li class="work-with-us pl-3">
                         <a class="nav-link btn btn-rounded text-uppercase font-weight-bold px-4" href="home#tell-us-home" style="font-size:16px;">work with us</a>
@@ -49,19 +49,19 @@
                         <li>
                             <ul class="collapsible collapsible-accordion">
                                 <li><a class="collapsible-header waves-effect arrow-r text-yellow font-weight-bold"
-                                        href="about-us">ABOUT US</a>
+                                        href="/about-us">ABOUT US</a>
                                 </li>
                                 <hr class="border-grey">
                                 <li><a class="collapsible-header waves-effect arrow-r text-yellow font-weight-bold"
-                                        href="service">SERVICES</a>
+                                        href="/service">SERVICES</a>
                                 </li>
                                 <hr class="border-grey">
                                 <li><a class="collapsible-header waves-effect arrow-r text-yellow font-weight-bold"
-                                        href="join-us">JOIN US</a>
+                                        href="/join-us">JOIN US</a>
                                 </li>
                                 <hr class="border-grey">
                                 <li><a class="collapsible-header waves-effect arrow-r text-yellow font-weight-bold"
-                                        href="contact-us">CONTACT US</a>
+                                        href="/contact-us">CONTACT US</a>
                                 </li>
                             </ul>
                         </li>

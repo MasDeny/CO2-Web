@@ -19,10 +19,10 @@
                     <p class="text-black">We are able to connect you with pre-vetted developers to achieve your business goals.</p>
                     <div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="how-it-outsourcing-works#it-works">know more</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/how-it-outsourcing-works#it-works">know more</a>
                         </div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us#contact">contact us</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/contact-us#contact">contact us</a>
                         </div>
                     </div>
                 </div>
@@ -38,10 +38,10 @@
 
                     <div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="how-software-development-works#software-works">know more</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/how-software-development-works#software-works">know more</a>
                         </div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us#contact">contact us</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/contact-us#contact">contact us</a>
                         </div>
                     </div>
                 </div>
@@ -57,10 +57,10 @@
 
                     <div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="join-us#join-us">know more</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/join-us#join-us">know more</a>
                         </div>
                         <div class="d-inline-block">
-                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="contact-us#contact">contact us</a>
+                            <a class="btn bg-black text-uppercase font-weight-bold text-yellow btn-rounded" href="/contact-us#contact">contact us</a>
                         </div>
                     </div>
                 </div>
@@ -93,11 +93,11 @@
                             <div>
                                 <div class="d-inline-block">
                                     <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                        href="how-it-outsourcing-works">know more</a>
+                                        href="/how-it-outsourcing-works">know more</a>
                                 </div>
                                 <div class="d-inline-block">
                                     <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                        href="contact-us">contact us</a>
+                                        href="/contact-us">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 </div>
                                 <div class="d-inline-block">
                                     <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                        href="contact-us">contact us</a>
+                                        href="/contact-us">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -125,11 +125,11 @@
                             <div>
                                 <div class="d-inline-block">
                                     <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                        href="join-us">know more</a>
+                                        href="/join-us">know more</a>
                                 </div>
                                 <div class="d-inline-block">
                                     <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
-                                        href="contact-us">contact us</a>
+                                        href="/contact-us">contact us</a>
                                 </div>
                             </div>
                         </div>

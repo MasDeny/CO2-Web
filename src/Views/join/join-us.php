@@ -12,7 +12,7 @@
                 </div>
                 <div class="row" id="mobile-hidden">
                     <div class="col-lg-4 col-md-4 col-12">
-                        <a href="carrer/talent-acquisition-internship-detail">
+                        <a href="/carrer/talent-acquisition-internship-detail">
                             <div class="d-inline-block align-middle">
                                 <img src="/assets/img/icon/internship.png">
                             </div>
@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-12">
-                        <a href="carrer/backend-developer-detail">
+                        <a href="/carrer/backend-developer-detail">
                             <div class="d-inline-block align-middle">
                                 <img src="/assets/img/icon/developer.png">
                             </div>
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-12">
-                        <a href="carrer/react-js-developer-detail">
+                        <a href="/carrer/react-js-developer-detail">
                             <div class="d-inline-block align-middle">
                                 <img src="/assets/img/icon/react.png">
                             </div>
@@ -127,7 +127,7 @@
                             </a>
                         </div>
                         <div class="col-6 pb-5">
-                            <a href="carrer/backend-developer-detail">
+                            <a href="/carrer/backend-developer-detail">
                                 <img class="img-fluid" src="/assets/img/icon/developer.png">
                                 <h5 class="text-uppercase font-weight-bold text-black title-job">backend <br />developer
                                 </h5>
@@ -138,7 +138,7 @@
 
                     <div class="row">
                         <div class="col-6 pb-5">
-                            <a href="carrer/talent-acquisition-internship-detail">
+                            <a href="/carrer/talent-acquisition-internship-detail">
                                 <img class="img-fluid" src="/assets/img/icon/internship.png">
                                 <h5 class="text-uppercase font-weight-bold text-black title-job">Talent Acquisition
                                     Internship</h5>
