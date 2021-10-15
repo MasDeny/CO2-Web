@@ -39,8 +39,10 @@ class Helper
     {
         $file = APP_ROOT . '/src/Views/' . $view . '.php';
 
-        if (is_readable($file)) require_once $file;
-        else die('404 Page not found');
+        require_once $file;
+
+        // if (is_readable($file)) 
+        // else die('404 Page not found');
     }
 
     /**

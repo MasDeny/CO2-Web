@@ -492,6 +492,8 @@
         </div>
     </div>
 </section>
+<script src="/assets/js/validationMailProject.js"></script>
+
 <?php 
     require_once APP_ROOT . '/src/Views/layouts/footer.php';
     require_once APP_ROOT . '/src/Views/layouts/script.php';

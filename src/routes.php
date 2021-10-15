@@ -1,6 +1,7 @@
 <?php
 
 use App\Core\Router;
+use App\Core\Response;
 
 /**
  * Web routes
@@ -16,6 +17,8 @@ Router::get('privacy-policy', 'Controllers\HomeController@privacyAndPolicy');
 Router::get('how-it-outsourcing-works', 'Controllers\HomeController@itOutsourcingWorks');
 Router::get('how-software-development-works', 'Controllers\HomeController@softwareDevelopmentWorks');
 
+Router::post('sendEmail', 'Controllers\HomeController@SendEmail');
+
 
 
 
@@ -23,8 +26,10 @@ Router::get('how-software-development-works', 'Controllers\HomeController@softwa
  * There is no route defined for a certain location
  */
 Router::error(function () {
+    Response::setStatusCode(404);
     Router::parseRender('_errorPage/_404', []);
-}, 404);
+    exit;
+});
 
 /**
  * Uncomment this function to migrate tables

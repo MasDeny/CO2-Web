@@ -168,7 +168,7 @@
                     <h4 class="font-weight-bold text-uppercase text-black mb-5">tell us about <span
                             class="text-yellow">your project</span></h4>
 
-                    <form id="contact-form" name="contact-form" action="../services/mail.php" method="POST">
+                    <form id="contact-form" name="contact-form">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 mb-5">
                                 <div class="text-center">
@@ -638,7 +638,7 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="md-form mt-5 mb-5">
                                     <textarea name="message" id="message" class="md-textarea form-control"
-                                        rows="4"></textarea>
+                                        rows="9"></textarea>
                                     <label for="form7">Briefly Describe What Your Project is About <span
                                             class="text-danger">*</span></label>
                                 </div>
@@ -654,6 +654,7 @@
                 </div>
             </div>
         </div>
+        <script src="/assets/js/validationMailProject.js"></script>
 <?php 
     require_once APP_ROOT . '/src/Views/layouts/footer.php';
     require_once APP_ROOT . '/src/Views/layouts/script.php';

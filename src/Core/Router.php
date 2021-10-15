@@ -54,8 +54,7 @@ class Router
     /**
     * Defines callback if route is not found
     */
-    public static function error($callback, $code) {
-        Response::setStatusCode($code);
+    public static function error($callback) {
         self::$error_callback = $callback;
     }
 
@@ -182,9 +181,10 @@ class Router
         if ($found_route == false) {
         if (!self::$error_callback) {
             self::$error_callback = function() {
-            header($_SERVER['SERVER_PROTOCOL']." 404 Not Found");
-            $this->response->setStatusCode(404);
-            echo '404';
+            // header($_SERVER['SERVER_PROTOCOL']." 404 Not Found");
+            // $this->response->setStatusCode(404);
+            // echo '404';
+            return ;
             };
         } else {
             if (is_string(self::$error_callback)) {
