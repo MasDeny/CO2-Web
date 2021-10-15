@@ -7,29 +7,30 @@ var captcha = sliderCaptcha({
 });
 
 function submitData() {
-    console.log(formData)
     $.ajax({
         url: "/sendEmail",
         type: "POST",
         data: formData,
         success: function (data, textStatus, jqXHR) {
-            //$('#status').text("Email sent!");
-            console.log(data)
+            captcha.reset();
+            $('#captchaModal').modal('hide')
             toastr["success"]("Success Sending Email. . .", {
                 'positionClass': "md-toast-top-center",
                 "timeOut": "3000"
             });
-            captcha.reset();
-            $('#captchaModal').modal('hide')
-            // setTimeout(() => {
-            //     window.location.href = '/thanks'
-            // }, 4000);
+            setTimeout(() => {
+                window.location.href = '/thanks'
+            }, 2000);
         },
         error: function (jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR)
+            captcha.reset();
+            $('#captchaModal').modal('hide')
             toastr["error"]("Failed Sending Email. . .", {
                 'positionClass': "md-toast-top-center",
                 "timeOut": "3000"
             });
+            
         }
     });
 }

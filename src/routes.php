@@ -16,11 +16,12 @@ Router::get('thanks', 'Controllers\HomeController@thanks');
 Router::get('privacy-policy', 'Controllers\HomeController@privacyAndPolicy');
 Router::get('how-it-outsourcing-works', 'Controllers\HomeController@itOutsourcingWorks');
 Router::get('how-software-development-works', 'Controllers\HomeController@softwareDevelopmentWorks');
+Router::get('/carrer/talent-acquisition-internship-detail','Controllers\HomeController@talentAcuquisition');
+Router::get('/carrer/backend-developer-detail','Controllers\HomeController@backendDeveloper');
+Router::get('/carrer/react-js-developer-detail','Controllers\HomeController@reactJsDeveloper');
+
 
 Router::post('sendEmail', 'Controllers\HomeController@SendEmail');
-
-
-
 
 /**
  * There is no route defined for a certain location

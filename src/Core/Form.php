@@ -15,11 +15,9 @@ class Form
      * @param array $validates
      * @return array
      */
-    public static function validations(array $validates): array
+    public static function validations(array $validates)
     {
         $output = [];
-        $output['status'] = 'OK';
-        $output['message'] = 'Process complete successfully!';
 
         $defaultMessages = [
             'required' => 'The field should not be empty!',
@@ -37,14 +35,15 @@ class Form
         ];
 
         foreach ($validates as $validate) {
-            if (!self::validate($validate[0], $validate[1])) {
+            $validation = self::validate($validate[0], $validate[1]);
+            if ($validation) {
                 $output['status'] = 'ERROR';
                 $output['message'] = $validate[2] ?? $defaultMessages[$validate[1]];
-
                 return $output;
             }
+            $output['status'] = 'OK';
+            $output['message'] = 'Process complete successfully!';
         }
-
         return $output;
     }
 
@@ -56,20 +55,20 @@ class Form
      * @param string $type
      * @return bool
      */
-    private static function validate(mixed $value, string $type): bool
+    private static function validate(mixed $value, string $type)
     {
         switch ($type) {
             case 'required':
-                return !empty($value);
+                return empty($value);
             case 'alphabets':
                 preg_match('/^[a-zA-Z]*$/', $value, $matches);
-                return !empty($value) && $matches[0];
+                return empty($value) && $matches[0];
             case 'numbers':
                 preg_match('/^[0-9]*$/', $value, $matches);
-                return !empty($value) && $matches[0];
+                return empty($value) && $matches[0];
             case 'email':
                 preg_match('/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/', $value, $matches);
-                return !empty($value) && $matches[0];
+                return empty($value) && $matches[0];
             case 'date(m/d/y)':
                 $array = explode("/", $value);
                 return !empty($value) && checkdate($array[0], $array[1], $array[2]);

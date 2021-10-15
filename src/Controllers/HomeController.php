@@ -1,11 +1,12 @@
 <?php
+
 namespace Controllers;
 
 use App\Core\Controller;
 use App\Core\Form;
 
 class HomeController extends Controller
-{    
+{
     public function index()
     {
         $params = [
@@ -27,7 +28,8 @@ class HomeController extends Controller
         ];
         $this->view('join/join-us', $params);
     }
-    public function contactUs(){
+    public function contactUs()
+    {
         $params = [
             'title' => 'Contact Us'
         ];
@@ -68,55 +70,75 @@ class HomeController extends Controller
         ];
         $this->view('howto/how-software-development-works', $params);
     }
+    public function talentAcuquisition()
+    {
+        $this->view('carrer/talent-acquisition-internship-detail');   
+    }
+    public function backendDeveloper()
+    {
+        $this->view('carrer/backend-developer-detail');   
+    }
+    public function reactJsDeveloper()
+    {
+        $this->view('carrer/react-js-developer-detail');   
+    }
     public function SendEmail()
     {
         $request = json_decode(json_encode($_POST));
-        var_dump($request);
-        // if(isset($request->website) && $request->website=="true") {
-        //     $develop["website"] = "Website";
-        // }
-
-        // if(isset($request->android) && $request->android=="true") {
-        //     $develop["android"] = "Android";
-        // }
-
-        // if(isset($request->ios) && $request->ios=="true") {
-        //     $develop["ios"] = "iOS";
-        // }
-
-        // $project = implode(", ",$develop);
-        // $content="ABOUT YOU \n From: $request->name \n Email: $request->email \n Phone Number : $request->mobilenumber \n \n ABOUT COMPANY \n Company Name : $request->companyname \n Industry : $$request->industry \n Country : $$request->country \n \n 
-        // PROJECT DETAIL \n Message: $request->message \n Amount : $request->amount \n Develop : $project";
-        // //echo $content;
-        // $recipient = "support@codingcollective.com";
-        // $mailheader = "From: $request->email \r\n";
-        // mail($recipient, $request->subject, $content, $mailheader) or die("Error!");
-        // $message = "email sent!";
-    }
-    
-    private function validationEmailProject($request)
-    {
-        $output = Form::validations([
-            [$request->title, 'required', 'Please enter a title for the post!'],
-            [$request->subtitle, 'required', 'Please enter a subtitle for the post!'],
-            [$request->body, 'required', 'Please enter a body for the post!'],
-        ]);
-
-        if ($output['status'] == 'OK') {
-            if (isset($_FILES['image']['type'])) {
-                Form::upload($_FILES['image'], ['jpeg', 'jpg','png'], 5000000, '../public/assets/images/', 85);
-            }
+        if ($request->project) {
+            self::validationEmailProject($request);
         } else {
-            $output['status'] = 'ERROR';
-            $output['message'] = 'There is an error! Please try again.';
+            # code...
+        }
+    }
+
+    private static function validationEmailProject($request)
+    {
+        if (isset($request->website) && $request->website == "true") {
+            $develop["website"] = "Website";
         }
 
-        echo json_encode($output);
-        
+        if (isset($request->android) && $request->android == "true") {
+            $develop["android"] = "Android";
+        }
+
+        if (isset($request->ios) && $request->ios == "true") {
+            $develop["ios"] = "iOS";
+        }
+
+        $project = implode(", ", $develop);
+
+        $content = "ABOUT YOU \n From: $request->name \n Email: $request->email \n Phone Number : $request->mobilenumber \n \n ABOUT COMPANY \n Company Name : $request->companyname \n Industry : $request->industry \n Country : $request->country \n \n 
+            PROJECT DETAIL \n Message: $request->message \n Amount : $request->amount \n Develop : $project";
+        //echo $content;
+        $recipient = "support@codingcollective.com";
+        $mailheader = "From: $request->email \r\n";
+        mail($recipient, $request->subject, $content, $mailheader) or die("Error!");
     }
 
-    private function validationEmailJob($data)
+    private static function validationEmailJob($request)
     {
-        
+        if (isset($_POST['name']))
+            $name = $request;
+
+        if (isset($_POST['email']))
+            $email = $request->email;
+
+        if (isset($_POST['mobilenumber']))
+            $mobilenumber = $request->mobilenumber;
+
+        if (isset($_POST['position']))
+            $position = $request->position;
+
+        if (isset($_FILES['file']))
+            $file = $_FILES['file']['name'];
+
+
+        $content = "ABOUT YOU \n From: $name \n Email: $email \n Phone Number : $mobilenumber \n Position : $position ";
+        //echo $file;
+        //$recipient = "jaycenlee91@gmail.com";
+        $recipient = "career@codingcollective.com";
+        $mailheader = "From: $email \r\n";
+        mail($recipient, $request->subject, $content, $mailheader) or die("Error!");
     }
 }

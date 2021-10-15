@@ -1,3 +1,7 @@
+<?php 
+    require_once APP_ROOT . '/src/Views/layouts/meta.php';
+    require_once APP_ROOT . '/src/Views/layouts/header.php';
+?>
     <section class="job-opening">
         <div class="container">
             <div class="pt-5 pb-5">
@@ -10,11 +14,11 @@
                     <div class="col-lg-6 col-md-6">
                         <h5 class="font-weight-bold text-uppercase text-black ">React JS Developer</h5>
                         <p class="text-black">Join our team of researchers and designers to plan, craft and create
-customer-centric experiences for our clients. Help design the user
-experience That will enable users to achieve their goals. As we continue
-to expand the company, we are looking for new staff to be the part of
-our big family. Well, are you the one we are looking for? Check the
-requirements below and apply. See you.</p>
+                            customer-centric experiences for our clients. Help design the user
+                            experience That will enable users to achieve their goals. As we continue
+                            to expand the company, we are looking for new staff to be the part of
+                            our big family. Well, are you the one we are looking for? Check the
+                            requirements below and apply. See you.</p>
                     </div>
                 </div>
 
@@ -24,16 +28,19 @@ requirements below and apply. See you.</p>
                     <div class="card">
                         <!-- Card header -->
                         <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="headingOne1">
-                            <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                            <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1"
+                                aria-expanded="true" aria-controls="collapseOne1">
                                 <h5 class="mb-0 text-black font-weight-bold">
                                     Company Details<i class="fas fa-angle-down rotate-icon"></i>
                                 </h5>
                             </a>
                         </div>
                         <!-- Card body -->
-                        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                            data-parent="#accordionEx">
                             <div class="card-body">
-                                Fast-growing and developing IT business solution enterprise in South East Asia. We provide the best solution for your business need.
+                                Fast-growing and developing IT business solution enterprise in South East Asia. We
+                                provide the best solution for your business need.
                             </div>
                         </div>
                     </div>
@@ -42,19 +49,22 @@ requirements below and apply. See you.</p>
                     <div class="card">
                         <!-- Card header -->
                         <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="headingTwo2">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                                aria-expanded="false" aria-controls="collapseTwo2">
                                 <h5 class="mb-0 text-black font-weight-bold">
                                     Requirements <i class="fas fa-angle-down rotate-icon"></i>
                                 </h5>
                             </a>
                         </div>
                         <!-- Card body -->
-                        <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+                        <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                            data-parent="#accordionEx">
                             <div class="card-body">
                                 <ul>
                                     <li>Experience in React Js, Node Js (Knowledge in Typescript is a plus). </li>
 
-                                    <li>Expertise in Object-Oriented Programming and Web Service (RESTfull API / Micro Service Concept). </li>
+                                    <li>Expertise in Object-Oriented Programming and Web Service (RESTfull API / Micro
+                                        Service Concept). </li>
 
                                     <li>Decent English communication skill. </li>
 
@@ -78,48 +88,58 @@ requirements below and apply. See you.</p>
 
                     <div class="card">
                         <!-- Card header -->
-                        <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="headingTwo2">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                        <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="headingTwo3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo3"
+                                aria-expanded="false" aria-controls="collapseTwo3">
                                 <h5 class="mb-0 text-black font-weight-bold">
-                                    Responsibilities:  <i class="fas fa-angle-down rotate-icon"></i>
+                                    Responsibilities: <i class="fas fa-angle-down rotate-icon"></i>
                                 </h5>
                             </a>
                         </div>
                         <!-- Card body -->
-                        <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+                        <div id="collapseTwo3" class="collapse" role="tabpanel" aria-labelledby="headingTwo3"
+                            data-parent="#accordionEx">
                             <div class="card-body">
                                 <ul>
-                                    <li>Developing interactive front-end designs for Decentralized applications (Dapps).  </li>
+                                    <li>Developing interactive front-end designs for Decentralized applications (Dapps).
+                                    </li>
 
                                     <li>Supervision of the entire stack that runs the Dapps. </li>
 
-                                    <li>Backend development pertaining to the blockchain.  </li>
+                                    <li>Backend development pertaining to the blockchain. </li>
 
-                                    <li>Being involved in the research, design, development, and testing of blockchain technologies. </li>
+                                    <li>Being involved in the research, design, development, and testing of blockchain
+                                        technologies. </li>
 
                                     <li>Brainstorm and evaluate applications for new tools and technologies. </li>
 
                                     <li>Document new solutions and maintain existing ones. </li>
 
-                                    <li>Maintain and extend client-side and server-side applications that are responsible for business logic and integration.</li>
+                                    <li>Maintain and extend client-side and server-side applications that are
+                                        responsible for business logic and integration.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <!-- Accordion card -->
-                    <p class="text-black mt-4 text-center font-weight-bold">Send your CV (and portfolio, if any) to: career@codingcollective.com</p>
+                    <p class="text-black mt-4 text-center font-weight-bold">Send your CV (and portfolio, if any) to:
+                        career@codingcollective.com</p>
                     <div class="text-center">
                         <div class="d-inline-block">
-                            <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded" data-toggle="modal" data-target="#exampleModalCenter" href="">apply now</a>
+                            <a class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded"
+                                data-toggle="modal" data-target="#exampleModalCenter" href="">apply now</a>
                         </div>
                         <div class="d-inline-block">
-                            <a class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded" href="whatsapp://send?text=Join our Fabulous Team of Intelligent Individuals. Check it out! https://demo.codingcollective.com/join.php">tell your friend</a>
+                            <a class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded"
+                                href="whatsapp://send?text=Join our Fabulous Team of Intelligent Individuals. Check it out! https://demo.codingcollective.com/join.php">tell
+                                your friend</a>
                         </div>
                     </div>
                 </div>
                 <!-- Accordion wrapper -->
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
@@ -139,63 +159,78 @@ requirements below and apply. See you.</p>
                                     <div class="text-center">
                                         <p class="mb-4 text-black">Send your resume to us.</p>
                                     </div>
-                                    <form id="contact-form" name="contact-form" action="mail-job.php" method="POST" enctype="multipart/form-data">
+                                    <form id="contact-form" name="contact-form" action="mail-job.php" method="POST"
+                                        enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0">
-                                                    <input type="text" id="name" name="name" class="form-control" required>
-                                                    <label for="subject" class="">Your Name <span class="text-danger">*</span></label>
+                                                    <input type="text" id="name" name="name" class="form-control"
+                                                        required>
+                                                    <label for="subject" class="">Your Name <span
+                                                            class="text-danger">*</span></label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0">
-                                                    <input type="email" id="email" name="email" class="form-control" required>
-                                                    <label for="subject" class="">Email <span class="text-danger">*</span></label>
+                                                    <input type="email" id="email" name="email" class="form-control"
+                                                        required>
+                                                    <label for="subject" class="">Email <span
+                                                            class="text-danger">*</span></label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0">
-                                                    <input type="text" id="mobilenumber" name="mobilenumber" class="form-control" required>
-                                                    <label for="subject" class="">Mobile Number <span class="text-danger">*</span></label>
+                                                    <input type="text" id="mobilenumber" name="mobilenumber"
+                                                        class="form-control" required>
+                                                    <label for="subject" class="">Mobile Number <span
+                                                            class="text-danger">*</span></label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0">
-                                                    <input type="text" id="position" name="position" class="form-control" value="React JS Developer" required>
-                                                    <label for="subject" class="">Position Applied <span class="text-danger">*</span></label>
+                                                    <input type="text" id="position" name="position"
+                                                        class="form-control" value="React JS Developer" required>
+                                                    <label for="subject" class="">Position Applied <span
+                                                            class="text-danger">*</span></label>
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>    
+                                    </form>
                                     <div class="text-center">
-                                        <h6 class="text-black font-weight-bold">Upload either DOC, DOCX, PDF,<br/> or TXT file types (8MB max)</h6>
+                                        <h6 class="text-black font-weight-bold">Upload either DOC, DOCX, PDF,<br /> or
+                                            TXT file types (8MB max)</h6>
                                     </div>
-                                    
+
                                     <div class="p-1 text-center border-dotted rounded">
                                         <div class=" bg-lightblue pt-4 pb-4">
                                             <div class="file-upload-wrapper">
-                                              <input type="file" name="file" id="file" class="file-upload" data-max-file-size="8M" />
+                                                <input type="file" name="file" id="file" class="file-upload"
+                                                    data-max-file-size="8M" />
                                             </div>
-                        
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer justify-content-center mt-4">
-                                    <a onclick="document.getElementById('contact-form').submit();" class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded d-inline-block mt-1" data-toggle="modal" data-target="#exampleModalCenter">send</a>
-                                    <a href="" class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded d-inline-block">close</a>
+                                    <a onclick="document.getElementById('contact-form').submit();"
+                                        class="btn bg-yellow text-uppercase font-weight-bold text-black btn-rounded d-inline-block mt-1"
+                                        data-toggle="modal" data-target="#exampleModalCenter">send</a>
+                                    <a href=""
+                                        class="btn btn-dark text-uppercase font-weight-bold text-yellow btn-rounded d-inline-block">close</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
     </section>
-
-
-
+    <?php 
+    require_once APP_ROOT . '/src/Views/layouts/footer.php';
+    require_once APP_ROOT . '/src/Views/layouts/script.php';
+?>

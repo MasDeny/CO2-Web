@@ -1,3 +1,7 @@
+<?php 
+    require_once APP_ROOT . '/src/Views/layouts/meta.php';
+    require_once APP_ROOT . '/src/Views/layouts/header.php';
+?>
     <section class="job-opening">
         <div class="container">
             <div class="pt-5 pb-5">
@@ -201,3 +205,7 @@
                 </div>
             </div>
     </section>
+<?php 
+    require_once APP_ROOT . '/src/Views/layouts/footer.php';
+    require_once APP_ROOT . '/src/Views/layouts/script.php';
+?>
